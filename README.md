@@ -22,11 +22,8 @@ The output is a ready-to-use OpenClaw skill that lets your agent **think and spe
 ### Install as OpenClaw Skill
 
 ```bash
-# From ClawHub (when published)
-openclaw skill install nuwa
-
-# Or manually
-cp -r nuwa/ ~/.openclaw/workspace-<agent>/skills/nuwa
+git clone https://github.com/kylefu8/nuwa-openclaw-skill.git
+cp -r nuwa-openclaw-skill/ ~/.openclaw/workspace-<agent>/skills/nuwa
 ```
 
 ### Usage
