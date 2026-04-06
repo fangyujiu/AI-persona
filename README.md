@@ -21,10 +21,22 @@ The output is a ready-to-use OpenClaw skill that lets your agent **think and spe
 
 ### Install as OpenClaw Skill
 
+**Option 1: Ask your OpenClaw agent to install it**
+
+Just tell your agent:
+
+> "帮我安装 nuwa skill，repo 地址 https://github.com/kylefu8/nuwa-openclaw-skill"
+
+Your agent will clone the repo and copy it to the correct skills directory.
+
+**Option 2: Manual install**
+
 ```bash
 git clone https://github.com/kylefu8/nuwa-openclaw-skill.git
 cp -r nuwa-openclaw-skill/ ~/.openclaw/workspace-<agent>/skills/nuwa
 ```
+
+Replace `<agent>` with your agent name (e.g. `kira`, `diva`).
 
 ### Usage
 
